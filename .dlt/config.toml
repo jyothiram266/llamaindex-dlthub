@@ -1,0 +1,11 @@
+[runtime]
+log_level="WARNING"
+dlthub_telemetry = true
+workspace_id = "ca00fda7-4e3c-466d-bbd1-6324d14c7b15"
+organization_id = "7abb6771-9ef4-4640-9e97-2633093eb20b"
+
+[destination.warehouse]
+destination_type="duckdb"
+
+[workspace.settings]
+name = "llamaindex-dlthub"

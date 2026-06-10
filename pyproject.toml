@@ -1,0 +1,19 @@
+[project]
+name = "llamaindex-dlthub"
+version = "0.1.0"
+description = "Minimal dltHub workspace"
+requires-python = ">=3.12"
+dependencies = [
+    "dlt[filesystem,hub,motherduck]>=1.17.0",
+    "dlthub[mcp]",
+    "duckdb<1.4.3",
+    "llama-index>=0.14.22",
+    "fpdf>=1.7.2",
+    "llama-index-readers-file>=0.6.0",
+    "pymupdf>=1.27.2.3",
+    "llama-index-llms-google-genai>=0.9.5",
+    "llama-index-llms-bedrock-converse>=0.14.13",
+    "llama-index-llms-anthropic",
+]
+
+[tool.uv.sources]
